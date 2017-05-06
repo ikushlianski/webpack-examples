@@ -1,0 +1,19 @@
+{
+  "name": "learning_webpack",
+  "version": "1.0.0",
+  "description": "This is my first webpack project",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.1",
+    "style-loader": "^0.17.0"
+  }
+}
