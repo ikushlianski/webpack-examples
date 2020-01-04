@@ -1,0 +1,21 @@
+{
+  "name": "webpack_kantor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:prod": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.41.5",
+    "webpack-cli": "3.3.10"
+  },
+  "dependencies": {
+    "lodash": "4.17.15"
+  }
+}
